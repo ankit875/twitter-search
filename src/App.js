@@ -40,6 +40,7 @@ class App extends Component {
         this.setState({ data });
       })
   }
+  
   render() {
     const { searchText, data } = this.state;
     return (
